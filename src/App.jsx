@@ -10,12 +10,14 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <Hero />
-      <About/>
-      <Services/>
-      <MyWork/>
-      <Contact/>
-      <Footer/>
+      <div className="container mx-auto px-4">
+        <Hero />
+        <About />
+        <Services />
+        <MyWork />
+        <Contact />
+      </div>
+      <Footer />
     </div>
   );
 };

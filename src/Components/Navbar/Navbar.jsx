@@ -20,7 +20,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between text-white lg:mx-12 px-8 py-2  my-4 bg-gray-600 items-center sticky top-0 z-10 rounded-md ">
+    <div className="flex justify-between text-white lg:mx-12 px-6 py-2 mb-4 bg-gray-600 items-center sticky top-0 z-10 rounded-md ">
       <h1 className="text-2xl lg:text-4xl font-bold">Portfolio.</h1>
       <img
         src={isOpen ? menu_close : menu_open}
@@ -106,9 +106,9 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <h3 className="px-4 py-2 font-semibold rounded-xl hidden md:block lg:block cursor-pointer bg-gradient-to-r from-[#FF512F] to-[#F09819] transition  hover:scale-105">
+      <a href="https://www.linkedin.com/in/ashfia-khatun" target="_blank" className="px-4 py-2 font-semibold rounded-xl hidden md:block cursor-pointer bg-gradient-to-r from-[#FF512F] to-[#F09819] transition  hover:scale-105">
         Conect with Me
-      </h3>
+      </a>
     </div>
   );
 };
