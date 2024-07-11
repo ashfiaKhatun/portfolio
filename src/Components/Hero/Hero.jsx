@@ -15,7 +15,7 @@ const Hero = () => {
             Connect with me
           </a>
           <button className="px-4 lg:px-12 py-2 border-2 hover:border-purple-500 cursor-pointer text-white rounded-xl">
-            <a href="https://drive.usercontent.google.com/u/0/uc?id=10yxliQvzUBIeW2o1uK8ztNoN6HwOWlSe&export=download">
+            <a href="https://drive.usercontent.google.com/u/0/uc?id=168pterGiYo8py2pWLO5gi4glvGvobWsg&export=download">
 
               My Resume
             </a>
