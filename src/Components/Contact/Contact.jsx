@@ -4,6 +4,7 @@ import mail_icon from "../../assets/mail_icon.svg";
 import React from "react";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
 
@@ -61,6 +62,23 @@ const Contact = () => {
               <img src={mail_icon} alt="" /> ashfia.khatun01@gmail.com
             </p>
           </div>
+
+          {/* Social Icons */}
+          <div className="flex gap-4 mt-6">
+            <a href="https://www.linkedin.com/in/ashfia-khatun/" target="_blank" className="social-icon">
+              <FaLinkedin className="size-10" />
+            </a>
+            <a href="https://github.com/ashfiaKhatun" target="_blank" className="social-icon">
+              <FaGithub className="size-10" />
+            </a>
+            <a href="https://www.instagram.com/ashfiasohely?igsh=aDhnN2p2YnhkenB0" target="_blank" className="social-icon">
+              <FaInstagram className="size-10" />
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100008428578863" target="_blank" className="social-icon">
+              <FaFacebook className="size-10" />
+            </a>
+          </div>
+
         </div>
         {/* right section */}
         <form onSubmit={onSubmit} className="lg:w-1/2">

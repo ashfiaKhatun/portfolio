@@ -13,7 +13,7 @@ const Services = () => {
             Front-End
           </h1>
           <p className="">
-            Building user-centric interfaces with HTML, CSS, Tailwind, Bootstrap, and React. I craft responsive, interactive web experiences that bring your vision to life.
+            Building user-centric interfaces with HTML, CSS, Tailwind, Bootstrap, and JavaScript. I craft responsive, interactive web experiences that bring your vision to life.
           </p>
         </div>
 
@@ -24,7 +24,7 @@ const Services = () => {
             Back-End
           </h1>
           <p className="">
-            I architect robust backend systems using Node.js, PHP, and Laravel. My expertise ensures scalable and secure applications that power exceptional user experiences.
+            I architect robust backend systems using PHP, and Laravel. My expertise ensures scalable and secure applications that power exceptional user experiences.
           </p>
         </div>
 
@@ -35,7 +35,7 @@ const Services = () => {
             Database
           </h1>
           <p className="">
-            I design and manage efficient databases using MongoDB and MySQL. My expertise ensures data integrity and optimal performance for your applications.
+            I design and manage efficient databases using MySQL. My expertise ensures data integrity and optimal performance for your applications.
           </p>
         </div>
 
